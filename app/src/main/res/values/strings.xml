@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">FallingWords</string>
 
+    <string name="game_instructions">\t\t\t\t\t\t\t\t▼▼▼ Game Instruction : ▼▼▼\n\n\n
+1. The question word will be in \'English\'(10 such questions).\n\n
+2. There will be four spanish options falling from top to bottom (each falls 2 seconds)\n\n
+3. You need to click button \"Select Word\" to choose the correct spanish word that matches english question, after button click, it displays next question.\n\n
+4. After showing 4 options, if you have not clicked \"Select Word\" option, it will skip current question and show next question.\n\n
+As soon as you click \"Start Game\" button, the game will start. So be ready!</string>
 </resources>

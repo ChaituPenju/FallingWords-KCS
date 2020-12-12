@@ -10,5 +10,8 @@ class GameStartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_start)
 
+        btn_start_game.setOnClickListener {
+            // Intent to the game screen on this button click
+        }
     }
 }
