@@ -18,7 +18,7 @@ abstract class FallingWordsDatabase : RoomDatabase() {
     companion object {
         private var INSTANCE: FallingWordsDatabase? = null
 
-        fun getDatabase(context: Context, scope: CoroutineScope): FallingWordsDatabase {
+        fun getDatabase(context: Context): FallingWordsDatabase {
 
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(

@@ -8,9 +8,7 @@ import kotlinx.coroutines.SupervisorJob
 
 class FallingWordsApplication: Application() {
 
-    private val applicationScope = CoroutineScope(SupervisorJob())
-
     // Instantiate the database and repository variables in our application class
-    private val fallingWordsDatabase by lazy { FallingWordsDatabase.getDatabase(this, applicationScope) }
+    private val fallingWordsDatabase by lazy { FallingWordsDatabase.getDatabase(this) }
     val repository by lazy { FallingWordsRepository(fallingWordsDatabase.fwScoreDao()) }
 }

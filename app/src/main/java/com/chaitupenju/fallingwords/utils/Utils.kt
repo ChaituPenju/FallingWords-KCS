@@ -30,4 +30,11 @@ object Utils {
 
         return randomWords
     }
+
+    // Helper function to convert milli seconds epoch to human readable date format
+    fun convertMillisToDate(milliSec: Long): String {
+        val sdf = SimpleDateFormat("EEE MMM dd HH:mm:ss yyyy", Locale.ENGLISH)
+
+        return sdf.format(Date(milliSec))
+    }
 }

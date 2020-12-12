@@ -154,8 +154,8 @@ class GamePlayActivity : AppCompatActivity() {
             override fun onAnimationRepeat(p0: Animation?) {
                 // If the answers word list finishes, that means user did not select any answer
                 if (answerOptionPosition == randomWordsList.size - 1) {
-                    randomizeQuestionAnswers()
                     totalQuestionsCount++
+                    randomizeQuestionAnswers()
 
                     checkAndStopGame()
                 } else {
