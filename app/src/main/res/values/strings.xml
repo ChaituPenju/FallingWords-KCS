@@ -7,4 +7,7 @@
 3. You need to click button \"Select Word\" to choose the correct spanish word that matches english question, after button click, it displays next question.\n\n
 4. After showing 4 options, if you have not clicked \"Select Word\" option, it will skip current question and show next question.\n\n
 As soon as you click \"Start Game\" button, the game will start. So be ready!</string>
+
+
+    <string name="btn_select_word_text">Select Word</string>
 </resources>
