@@ -27,6 +27,16 @@
                 android:value=".GameStartActivity" />
 
         </activity>
+
+        <activity
+            android:name=".GameScoreActivity"
+            android:parentActivityName=".GamePlayActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GamePlayActivity" />
+
+        </activity>
     </application>
 
 </manifest>

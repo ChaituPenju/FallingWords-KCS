@@ -10,4 +10,11 @@ As soon as you click \"Start Game\" button, the game will start. So be ready!</s
 
 
     <string name="btn_select_word_text">Select Word</string>
+
+
+    <string name="player_score_heading">▼ Your Score ▼</string>
+    <string name="player_name_text">Player Name :\t</string>
+    <string name="player_score_text">Player Score :\t</string>
+    <string name="player_game_played_at_text">Game Played At :\t</string>
+    <string name="player_previous_scores_heading">▼ Your Previous Scores ▼</string>
 </resources>
